@@ -8,6 +8,9 @@ import { DpaButtonComponent } from './dpa-button/dpa-button.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    DpaButtonComponent
   ]
 })
 export class ButtonModule { }

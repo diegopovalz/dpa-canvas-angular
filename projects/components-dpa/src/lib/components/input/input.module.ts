@@ -8,6 +8,9 @@ import { DpaInputTextComponent } from './dpa-input-text/dpa-input-text.component
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    DpaInputTextComponent
   ]
 })
 export class InputModule { }

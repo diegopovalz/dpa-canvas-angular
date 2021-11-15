@@ -4,13 +4,13 @@ import { DpaInputTextComponent } from './dpa-input-text/dpa-input-text.component
 
 @NgModule({
   declarations: [
-    DpaInputTextComponent
+    DpaInputTextComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
-    DpaInputTextComponent
-  ]
+    DpaInputTextComponent,
+  ],
 })
 export class InputModule { }

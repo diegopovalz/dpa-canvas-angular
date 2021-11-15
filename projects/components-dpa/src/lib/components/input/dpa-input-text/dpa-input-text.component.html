@@ -1,1 +1,7 @@
-<p>dpa-input-text works!</p>
+<div class="dpa-input" [ngClass]="{'error': isInvalid}">
+  <label for="dpa-input-label">{{ labelText }} <span *ngIf="isOptional">(Optional)</span></label>
+  <input type="text" name="dpa-input-label" [placeholder]="placeholder" [pattern]="pattern">
+</div>
+<div>
+  <a href=""></a>
+</div>
